@@ -20,7 +20,7 @@ The project is a front-end clone of Tripadvisor created for learning and practic
 - Clean and simple UI
 
 ## How to View
- You can access my tripadvisor clone website in[live link] 
+ You can access my tripadvisor clone website in[live link] https://arunkumard4693-sys.github.io/Tripadvisor-clone-simple/
 
 ## Purpose
 
