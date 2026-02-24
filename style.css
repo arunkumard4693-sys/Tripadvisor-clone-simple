@@ -1,0 +1,330 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 20px;
+}
+
+.NavBar {
+    border: solid black 1px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar-sec1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.NavBar-sec2 button {
+    width: 80px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.SearchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SearchBar-sec1 {
+    padding: 10px;
+}
+
+.SearchBar-sec2 {
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+.SerachBar-sec2:focus{
+    outline: 1px;
+}
+
+.SearchBar-sec3 {
+    display: flex;
+    padding-left: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 80%;
+    align-items: center;
+
+}
+
+.SearchBar-sec3 input {
+    padding: 10px;
+    font-size: 16px;
+    width: 90%;
+    border: none;
+}
+
+.SearchBar-sec3 input:focus {
+    outline: none;
+}
+
+.SearchBar-sec3 p {
+    width: fit-content;
+    background-color: green;
+    padding: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.welcomeImage{
+    width: 100%;
+    height: 400px;
+    background-color: green;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.welcomeImage img{
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    right: 250px;
+    top: 80px;
+    
+}
+.welcomeImage-head{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    border-right: solid black 2px;
+}
+.welcomeImage-head p{
+    margin-top: 10px;
+}
+.welcomeImage-book{
+    background-color: black;
+    width: fit-content;
+    color: white;
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.find-container{
+    margin-bottom: 30px;
+}
+.find-container-sec1 h2,.find-container-sec1 p{
+    margin-bottom: 10px;
+}
+.find-container-sec2 img{
+    width:300px;
+    border-radius: 10px;
+
+}
+.find-container-sec2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.explore-sec2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.explore-sec2 img{
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.explore-sec2 p,.explore-sec2 h2{
+
+    margin-bottom: 10px;
+}
+.explore-title,.explore-desc{
+    margin-bottom: 10px;
+}
+.explore-sec2-img1,.explore-sec2-img2,.explore-sec2-img3,.explore-sec2-img4{
+    width: 300px;
+}
+.explore2{
+    margin-top: 30px;
+}
+.explore2 h2,.explore2 p{
+    margin-bottom: 10px;
+}
+.explore2-sec2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.explore2-sec2-img1 img,.explore2-sec2-img2 img,.explore2-sec2-img3 img,.explore2-sec2-img4 img{
+    width: 300px;
+    border-radius: 10px;
+}
+.explore2-sec2-img1,.explore2-sec2-img2,.explore2-sec2-img3,.explore2-sec2-img4{
+    width: 300px;
+}
+/*need container sec1*/
+.need-container{
+    margin-top: 10px;
+}
+.need-container-sec2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.need-container-sec2 img{
+    width: 300px;
+    border-radius: 10px;
+}
+.awards-card{
+    margin-top: 10px;
+    width: 100%;
+    background-color: green;
+    border-radius: 10px;
+    height: 500px;
+    position: relative;
+}
+.awards-card-sec1{
+    width: 300px;
+    height: 360px;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    border-right: solid black 2px;
+    font-size: 18px;
+}
+.awards-card-sec1-yr{
+    border: solid black 1px;
+    width: fit-content;
+    padding-top: 40px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+    margin-bottom:10px ;
+    position: relative;
+}
+.awards-card-icon{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+.awards-card-sec1-winn{
+    border: solid black 1px;
+    width: fit-content;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.awards-card img{
+    width: 200px;
+    height: 360px;
+    position: absolute;
+    top: 80px;
+    right: 300px;
+    border-radius: 30px;
+}
+.yellow-dot{
+    background-color: yellow;
+    color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 500px;
+}
+.green-dot{
+    background-color: rgb(0, 255, 0);
+    color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+}
+/*footers*/
+.footers p ,.atsite h2{
+    cursor: pointer;
+}
+.footers-1{
+    display: flex;
+    gap: 20px;
+}
+.footers{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(233, 229, 229);
+    display: flex;
+    justify-content: space-around;
+    
+}
+/*Animations*/
+.welcomeImage-book{
+    animation-name: booknow;
+    animation-duration: 2s;
+
+}
+@keyframes booknow {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+.awards-card-sec1-winn{
+    animation-name: awards;
+    animation-duration: 2s;
+
+}
+@keyframes awards {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    body{
+        font-size: 10px;
+    }   
+}
+@media screen and (max-width:1325px){
+    .welcomeImage{
+        display: none;
+    }
+    .awards-card{
+        display: none;
+    }
+}
+@media screen and (max-width:800px){
+    .SearchBar{
+        display: none;
+    }
+    
+}
+
